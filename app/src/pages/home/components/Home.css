@@ -1,0 +1,15 @@
+.content-section {
+  padding: 50px 250px;
+  background-color: #fff;
+}
+
+.title-with-underline {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* text-transform: uppercase; */
+  color: #444444;
+  font-size: 57px;
+  font-weight: bold;
+  border-bottom: 5px solid #0a70b6;
+}
