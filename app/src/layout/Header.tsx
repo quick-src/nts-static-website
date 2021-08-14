@@ -10,7 +10,14 @@ const Header: React.FC<any> = (props) => {
         <div className="header-menu">
           <div className="menu-item-active">Home</div>
           <div className="menu-item">About US</div>
-          <div className="menu-item">Courses</div>
+          <div className="menu-item">
+            <div className="menu-label">Courses</div>
+            <div className="menu-list">
+              <a href="#">Corporate Training</a>
+              <a href="#">Online Training</a>
+              <a href="#">Certifications</a>
+            </div>
+          </div>
           <div className="menu-item">IT Staffing</div>
           <div className="menu-item">Projects</div>
           <div className="menu-item">Become Trainer</div>

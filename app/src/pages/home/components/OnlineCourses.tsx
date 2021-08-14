@@ -5,7 +5,9 @@ import "./Home.css";
 const OnlineCourses: React.FC<any> = (props) => {
   return (
     <div className="content-section online-courses">
-      <div className="title-with-underline">Online Courses</div>
+      <div className="title-container">
+        <h1 className="title-with-underline">Online Courses</h1>
+      </div>
       <div className="course-container">
         <div className="course-item">course 1</div>
         <div className="course-item">course 2</div>
