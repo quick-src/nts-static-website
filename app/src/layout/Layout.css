@@ -10,6 +10,11 @@
   z-index: 1;
 }
 
+.header .header-logo {
+  height: 80px;
+  width: 150px;
+}
+
 .header .header-menu {
   display: flex;
   justify-content: space-between;

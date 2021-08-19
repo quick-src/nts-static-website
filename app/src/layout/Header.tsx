@@ -1,12 +1,14 @@
 import React from "react";
 
+import Logo from "../assets/Logo.svg";
+
 import "./Layout.css";
 
 const Header: React.FC<any> = (props) => {
   return (
     <>
       <div className="header">
-        <div className="header-logo">LOGO</div>
+        <img src={Logo} alt="" className="header-logo" />
         <div className="header-menu">
           <div className="menu-item-active">Home</div>
           <div className="menu-item">About US</div>
