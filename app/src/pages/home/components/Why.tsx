@@ -1,6 +1,9 @@
 import React from "react";
 
-import QualityPic from "../../../assets/quality.png";
+import QualityPic from "../../../assets/quality.svg";
+import ServicesPic from "../../../assets/24-7.svg";
+import MoneyBackPic from "../../../assets/money-back.svg";
+
 import "./Home.css";
 
 const Why: React.FC<any> = (props) => {
@@ -17,13 +20,13 @@ const Why: React.FC<any> = (props) => {
           </div>
         </div>
         <div className="why-item">
-          <img src={QualityPic} alt="" className="why-image" />
+          <img src={ServicesPic} alt="" className="why-image" />
           <div className="why-info">
             <h2 className="why-label">24/7 SERVICES</h2>
           </div>
         </div>
         <div className="why-item">
-          <img src={QualityPic} alt="" className="why-image" />
+          <img src={MoneyBackPic} alt="" className="why-image" />
           <div className="why-info">
             <h2 className="why-label">MONEY BACK GUARANTEE</h2>
           </div>

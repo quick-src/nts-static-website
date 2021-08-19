@@ -1,0 +1,22 @@
+.hero-banner {
+  height: 700px;
+  width: 100vw;
+  background-image: linear-gradient(
+      rgb(10, 112, 182, 0.74),
+      rgb(10, 112, 182, 0.74)
+    ),
+    url("../../../assets/slide_img.png");
+  padding: 20px 40px;
+}
+
+.slide-1 {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-banner h1 {
+  color: #ffffff;
+  font-size: 57px;
+}

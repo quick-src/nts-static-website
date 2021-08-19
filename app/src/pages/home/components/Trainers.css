@@ -1,0 +1,52 @@
+.trainers {
+  padding: 50px 120px;
+  background-color: #fbfbfb;
+}
+
+.trainers .title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainers .title-with-underline {
+  text-align: center;
+  color: #444444;
+  font-size: 42px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-bottom: 5px solid #0a70b6;
+}
+
+.trainers-list {
+  padding: 20px 40px;
+}
+
+.trainer-card {
+  padding: 0px 25px;
+}
+
+.trainer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 20px 30px;
+  background-color: #ffff;
+}
+
+.trainer-info img {
+  padding: 10px 0px;
+}
+
+.trainer-info p {
+  padding: 10px 0px;
+}
+
+.trainer-info a {
+  color: #0a70b6;
+  font-weight: bold;
+  padding: 7px 20px;
+  text-decoration: none;
+  margin: 10px 0px;
+}

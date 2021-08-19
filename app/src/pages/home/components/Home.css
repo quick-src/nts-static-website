@@ -190,7 +190,16 @@
     flex-flow: column;
   }
 
+  .content-section .why-container {
+    flex-flow: column;
+  }
+
   .content-section .course-container .course-item {
+    width: 300px;
+    margin: 5px;
+  }
+
+  .content-section .why-container .why-item {
     width: 300px;
     margin: 5px;
   }
