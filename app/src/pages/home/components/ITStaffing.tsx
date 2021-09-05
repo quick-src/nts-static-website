@@ -12,26 +12,20 @@ const ITStaffing: React.FC<any> = (props) => {
       <div className="it-staffing-content">
         <h2 className="title">IT Staffing</h2>
         <p className="content">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. <br />
+          Our team of seasoned consultants can help your organization with an
+          understanding of your organization and business needs while adhering
+          to the highest level of professional standard.
           <br />
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. Lorem Ipsum is simply dummy
-          text of the printing and typesetting industry. Lorem Ipsum has been
-          the industry's standard dummy text ever since the 1500s, when an
-          unknown printer took a galley of type and scrambled it to make a type
-          specimen book. Lorem Ipsum is simply dummy text of the printing and
-          typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. Lorem Ipsum is
-          simply dummy text of the printing and typesetting industry. Lorem
-          Ipsum has been the industry's standard dummy text ever since the
-          1500s, when an unknown printer took a galley of type and scrambled it
-          to make a type specimen book.
+          <br />
+          We provide our client with highly skilled professionals for Full time,
+          Contract to Hire, Contract –Charged on actual hours worked, Contract
+          –Monthly or hourly.
+          <br />
+          <br />
+          Client will interview and select the Qualified resources based on
+          requirement. Resources will directly work with client and will make
+          sure on time deliverables. Lorem Ipsum is simply dummy text of the
+          printing and typesetting industry.
         </p>
         <a href="#">View All</a>
       </div>

@@ -53,6 +53,22 @@
   font-size: 14px;
 }
 
+@media (max-width: 576px) {
+  .footer {
+    max-width: 540px;
+  }
+
+  .footer .footer-links {
+    grid-template-columns: auto auto;
+    padding: 0px 7px;
+  }
+
+  .footer .copyright {
+    flex-flow: column-reverse;
+    align-items: center;
+  }
+}
+
 @media (min-width: 576px) {
   .footer {
     max-width: 540px;

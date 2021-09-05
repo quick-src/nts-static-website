@@ -10,13 +10,49 @@
 }
 
 .slide-1 {
-  height: 700px;
-  display: flex;
-  justify-content: center;
+  height: 600px;
+  display: flex !important;
+  justify-content: flex-start;
   align-items: center;
+  padding: 0px 15px;
 }
 
-.hero-banner h1 {
+.slide-1 h1 {
   color: #ffffff;
   font-size: 57px;
+}
+
+@media (max-width: 576px) {
+  .slide-1 h1 {
+    color: #ffffff;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 576px) {
+  .slide-1 h1 {
+    color: #ffffff;
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slide-1 h1 {
+    color: #ffffff;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .slide-1 h1 {
+    color: #ffffff;
+    font-size: 57px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .slide-1 h1 {
+    color: #ffffff;
+    font-size: 57px;
+  }
 }

@@ -114,6 +114,19 @@
   display: block;
 }
 
+@media (max-width: 576px) {
+  .container-fluid {
+    max-width: 540px;
+  }
+  .desktop-device-show {
+    display: none !important;
+  }
+
+  .mobile-device-show {
+    display: block !important;
+  }
+}
+
 @media (min-width: 576px) {
   .container-fluid {
     max-width: 540px;

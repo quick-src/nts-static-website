@@ -9,14 +9,22 @@ const HeroBanner: React.FC<any> = (props) => {
   };
   return (
     <div className="hero-banner">
-      <Slider {...settings}>
-        <div className="slide-1">
-          <h1>Learn New Skills Online Find Best Courses</h1>
-        </div>
-        <div className="slide-1">
-          <h1>Learn New Skills Online Find Best Courses</h1>
-        </div>
-      </Slider>
+      <div className="container">
+        <Slider {...settings}>
+          <div className="slide-1">
+            <h1>
+              Learn New Skills Online
+              <br /> Find Best Courses
+            </h1>
+          </div>
+          <div className="slide-1">
+            <h1>
+              Learn New Skills Online
+              <br /> Find Best Courses
+            </h1>
+          </div>
+        </Slider>
+      </div>
     </div>
   );
 };
