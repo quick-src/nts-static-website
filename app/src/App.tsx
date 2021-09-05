@@ -4,13 +4,12 @@ import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
 // Layout contains `Header` & `Footer` which will be constant in all pages
 import Layout from "./layout";
 import { Home, PageNotFound } from "./pages";
+import { routes } from "./helpers";
 
 import "./App.css";
 
 const App: React.FC<any> = () => {
-  const paths = {
-    home: "/",
-  };
+  const paths = routes;
 
   return (
     <>
