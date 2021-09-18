@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 import { ListSection, ContentSection } from "../../../components";
 
-import "./AboutUs.css";
+import "./ITStaffingContent.css";
 
-const Home: React.FC<any> = (props) => {
+const ITStaffingContent: React.FC<any> = (props) => {
   const list = [
     {
       key: "OUR_MISSION",
@@ -23,16 +23,17 @@ const Home: React.FC<any> = (props) => {
 
   return (
     <>
-      <div className="about-us">
+      <div className="it-staffing">
         <div className="container">
-          <h1>About US</h1>
+          <h1>IT Staffing</h1>
+          {/* <h4>Corporate Training</h4> */}
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
             and scrambled it to make a type specimen book.{" "}
           </p>
-          <div className="about-us-content">
+          <div className="it-staffing-content">
             <div className="info-section">
               <ContentSection>clnadjncdxc</ContentSection>
             </div>
@@ -52,4 +53,4 @@ const Home: React.FC<any> = (props) => {
   );
 };
 
-export default Home;
+export default ITStaffingContent;
