@@ -46,6 +46,51 @@
   width: 25%;
 }
 
+.section1-container {
+  padding: 15px;
+}
+
+.section1-container h1 {
+  color: #444444;
+  padding: 5px;
+  /* border-bottom: 0.7px solid #444444; */
+}
+
+.section1-container .skill-details {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  border-bottom: 0.7px solid #444444;
+}
+
+.section1-container .skill-details .skill-detail-item {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
+
+.section1-container .skill-details .skill-detail-item .label {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.section1-container .title-with-underline {
+  padding-top: 15px;
+  width: 150px;
+  text-align: center;
+  color: #444444 !important;
+  font-size: 24px;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  border-bottom: 5px solid #0a70b6;
+}
+
+.section1-container p {
+  width: 100%;
+  color: #444444 !important;
+}
+
 /* Mobile View */
 @media only screen and (max-width: 700px) {
   .corporate-training .corporate-training-content {
