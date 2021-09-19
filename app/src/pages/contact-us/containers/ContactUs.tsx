@@ -1,5 +1,6 @@
 import React from "react";
 
+import ContactUsContent from "../components/ContactUsContent";
 import { ContentSection } from "../../../components";
 
 import "./ContactUs.css";
@@ -17,7 +18,9 @@ const ContactUs: React.FC<any> = (props) => {
             and scrambled it to make a type specimen book.{" "}
           </p>
           <div className="contact-us-content">
-            <ContentSection>clnadjncdxc</ContentSection>
+            <ContentSection>
+              <ContactUsContent />
+            </ContentSection>
           </div>
         </div>
       </div>

@@ -1,0 +1,42 @@
+.blogs {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      rgb(10, 112, 182, 0.74),
+      rgb(10, 112, 182, 0.74)
+    ),
+    url("../../../assets/bg_03.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+}
+
+.blogs h1 {
+  padding: 5px 10px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+
+.blogs p {
+  padding: 5px 10px;
+  color: #ffffff;
+  width: 60%;
+}
+
+.blogs .blogs-content {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 700px) {
+  .blogs .blogs-content {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: space-between;
+    padding: 0px 15px;
+  }
+}

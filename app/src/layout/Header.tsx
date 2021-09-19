@@ -27,7 +27,7 @@ const Header: React.FC<any> = (props) => {
                     <a href={routes.aboutUs}>About Us</a>
                     <a href={routes.itStaffing}>IT Staffing</a>
                     <a href={routes.projects}>Projects</a>
-                    <a href={routes.blog}>Blog</a>
+                    <a href={routes.blogs}>Blog</a>
                   </div>
                 </div>
               </li>
@@ -95,7 +95,7 @@ const Header: React.FC<any> = (props) => {
                       <a href={routes.aboutUs}>About Us</a>
                       <a href={routes.itStaffing}>IT Staffing</a>
                       <a href={routes.projects}>Projects</a>
-                      <a href={routes.blog}>Blog</a>
+                      <a href={routes.blogs}>Blog</a>
                     </div>
                   </div>
                 </li>

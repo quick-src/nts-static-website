@@ -10,6 +10,8 @@ import {
   CorporateTraining,
   ITStaffing,
   ContactUs,
+  Projects,
+  Blogs,
 } from "./pages";
 import { routes } from "./helpers";
 
@@ -46,6 +48,18 @@ const App: React.FC<any> = () => {
               key={paths.contactUs}
               path={paths.contactUs}
               component={ContactUs}
+            />
+            <Route
+              exact
+              key={paths.projects}
+              path={paths.projects}
+              component={Projects}
+            />
+            <Route
+              exact
+              key={paths.blogs}
+              path={paths.blogs}
+              component={Blogs}
             />
             <Route exact key={paths.home} path={paths.home} component={Home} />
             <Route component={PageNotFound} />

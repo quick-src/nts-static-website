@@ -1,0 +1,23 @@
+.contact-us-content-section {
+  padding: 20px;
+}
+
+.title-with-underline {
+  width: 250px;
+  text-align: center;
+  color: #444444 !important;
+  font-size: 42px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-bottom: 5px solid #0a70b6;
+}
+
+.feedback-content {
+  color: #444444 !important;
+}
+
+.section-one {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+}
