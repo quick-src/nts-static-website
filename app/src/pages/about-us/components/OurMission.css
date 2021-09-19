@@ -1,0 +1,19 @@
+.our-mission-container {
+  padding: 15px;
+}
+
+.our-mission-container h1 {
+  color: #444444 !important;
+  text-transform: none !important;
+}
+
+.our-mission-container p {
+  width: 100% !important;
+  color: #444444 !important;
+  text-transform: none !important;
+}
+
+.our-mission-container img {
+  padding: 0px 10px;
+  width: 100%;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Button, Form, FormGroup, Label, Input, FormText } from "reactstrap";
 
 import "./ContactUsContent.css";
 
@@ -13,18 +14,22 @@ const ContactUsContent: React.FC<any> = (pros) => {
           <div className="address-content">
             3691 Holt Street, Boynton Beach FL, Florida - 33435
           </div>
+          <div className="contact-info">
+            <a href="#">+12345678910</a>
+            <a href="#">+12345678910</a>
+            <a href="#">info@domain.com</a>
+            <a href="#">info@domain.com</a>
+          </div>
         </div>
-        <div>
-          <iframe
-            width="600px"
-            height="400px"
-            frameBorder="0"
-            scrolling="no"
-            marginHeight={0}
-            marginWidth={0}
-            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-          ></iframe>
-        </div>
+        <iframe
+          width="600px"
+          height="400px"
+          frameBorder="0"
+          scrolling="no"
+          marginHeight={0}
+          marginWidth={0}
+          src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+        />
       </div>
       <div className="section-two">
         <div className="feedback-label">
@@ -36,7 +41,23 @@ const ContactUsContent: React.FC<any> = (pros) => {
           since the 1500s, when an unknown printer took a galley of type and
           scrambled it to make
         </p>
-        <div className="feedback-form"></div>
+        <div className="feedback-form">
+          <Input type="email" name="email" id="email" placeholder="Email" />
+          <Input type="text" name="phone" id="phone" placeholder="Mobile No" />
+          <Input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject"
+          />
+          <Input
+            type="textarea"
+            name="message"
+            id="message"
+            placeholder="Message"
+          />
+          <button>Submit</button>
+        </div>
       </div>
     </div>
   );

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+import OurMission from "../components/OurMission";
 import { ListSection, ContentSection } from "../../../components";
 
 import "./AboutUs.css";
@@ -34,7 +35,9 @@ const Home: React.FC<any> = (props) => {
           </p>
           <div className="about-us-content">
             <div className="info-section">
-              <ContentSection>clnadjncdxc</ContentSection>
+              <ContentSection>
+                <OurMission />
+              </ContentSection>
             </div>
             <div className="list-section">
               <ListSection

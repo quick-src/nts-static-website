@@ -21,3 +21,53 @@
   justify-content: space-between;
   flex-flow: row;
 }
+
+.feedback-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding: 25px;
+}
+
+.feedback-form button {
+  color: #0a70b6;
+  font-weight: bold;
+  padding: 7px 20px;
+  border: 1px solid #0a70b6;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #ffffff;
+  width: 100px;
+  margin-top: 15px;
+}
+
+.form-control {
+  border-radius: 0 !important;
+  border: 1px solid #444444 !important;
+  margin: 10px 0px !important;
+}
+
+iframe {
+  padding: 25px;
+}
+
+.contact-us-content-section .section-one .contact-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: column;
+  padding: 25px;
+}
+
+.contact-us-content-section .section-one .contact-info a {
+  color: black;
+}
+
+.contact-us-content-section .section-one .contact-info a:link {
+  text-decoration: none;
+}
+
+.contact-us-content-section .section-one .contact-info a:hover {
+  text-decoration: underline;
+}

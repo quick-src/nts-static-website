@@ -30,7 +30,7 @@
 .list-item {
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   color: #ffffff;
   font-weight: bold;
   padding: 5px 10px;
@@ -52,5 +52,5 @@
   width: 100%;
   align-items: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
