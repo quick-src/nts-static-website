@@ -46,7 +46,8 @@ Our practical and applied approach has resulted in 85 percent of learners report
 </p>
 
 <div>
-  
+<br />
+
 <h1>DevOps</h1>
       <div className="skill-details">
         <div className="skill-detail-item">
@@ -101,8 +102,22 @@ Our practical and applied approach has resulted in 85 percent of learners report
         
       </ul> 
       
-
+      
       <h2 className="title-with-underline">CI/CD</h2>
+      <div className="skill-details">
+        <div className="skill-detail-item">
+          <span className="label">Enrolled:</span>
+          <span className="value">678 Students</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Duration:</span>
+          <span className="value">2 Hours</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Trainers:</span>
+          <span className="value">8</span>
+        </div>
+      </div>
       <ul className="courses-nav">
         <li>Jenkins</li>
         <li>TeamCity </li>
@@ -112,6 +127,20 @@ Our practical and applied approach has resulted in 85 percent of learners report
       </ul> 
 
       <h2 className="title-with-underline">Big Data</h2>
+      <div className="skill-details">
+        <div className="skill-detail-item">
+          <span className="label">Enrolled:</span>
+          <span className="value">678 Students</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Duration:</span>
+          <span className="value">2 Hours</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Trainers:</span>
+          <span className="value">8</span>
+        </div>
+      </div>
       <ul className="courses-nav">
         <li>Big Data Hadoop</li>
       
@@ -119,6 +148,20 @@ Our practical and applied approach has resulted in 85 percent of learners report
   
 
       <h2 className="title-with-underline">Software Development</h2>
+      <div className="skill-details">
+        <div className="skill-detail-item">
+          <span className="label">Enrolled:</span>
+          <span className="value">678 Students</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Duration:</span>
+          <span className="value">2 Hours</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Trainers:</span>
+          <span className="value">8</span>
+        </div>
+      </div>
       <ul className="courses-nav">
         <li>Java </li>
         <li>Full Stack </li>
@@ -131,11 +174,39 @@ Our practical and applied approach has resulted in 85 percent of learners report
         </li>      
       </ul> 
       <h2 className="title-with-underline">Salesforce</h2>
+      <div className="skill-details">
+        <div className="skill-detail-item">
+          <span className="label">Enrolled:</span>
+          <span className="value">678 Students</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Duration:</span>
+          <span className="value">2 Hours</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Trainers:</span>
+          <span className="value">8</span>
+        </div>
+      </div>
       <ul className="courses-nav">
         <li>Admin & App Development </li>      
       </ul> 
 
       <h2 className="title-with-underline">Other Technologies</h2>
+      <div className="skill-details">
+        <div className="skill-detail-item">
+          <span className="label">Enrolled:</span>
+          <span className="value">678 Students</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Duration:</span>
+          <span className="value">2 Hours</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Trainers:</span>
+          <span className="value">8</span>
+        </div>
+      </div>
       <ul className="courses-nav">
         <li>Linux </li>      
         <li>Networking </li>      
