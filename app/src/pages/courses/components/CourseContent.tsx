@@ -22,7 +22,7 @@ const Section1: React.FC<any> = (props) => {
       </div>
 
       <h2 className="title-with-underline">Description</h2>
-      <ul>
+      <ul className="courses-nav">
         <li>AWS – Amazon Web Services </li>
         <li>Microsoft Azure </li>
         <li>GCP – Google Cloud </li>
@@ -64,7 +64,7 @@ Our practical and applied approach has resulted in 85 percent of learners report
       </div>
 
       <h3 className="title-with-underline">Programming Languages</h3>
-      <ul>
+      <ul className="courses-nav">
         <li>Python</li>
         <li>Golang </li>
         <li>Javascript</li>
@@ -73,7 +73,7 @@ Our practical and applied approach has resulted in 85 percent of learners report
       <h2 className="title-with-underline">Infrastructure as code</h2>
       <ul>
         <li>Configuration Management
-          <ul>
+        <ul className="courses-nav">
               <li>Ansible </li>
               <li>Puppet </li>
               <li>Chef </li>
@@ -81,7 +81,7 @@ Our practical and applied approach has resulted in 85 percent of learners report
           </ul>
           </li>
         <li>Containers Orchestrators
-          <ul>
+        <ul className="courses-nav">
               <li>Docker</li>
               <li>Kubernetes</li>
               <li>Openshift</li>
@@ -90,7 +90,7 @@ Our practical and applied approach has resulted in 85 percent of learners report
         </li>
         
         <li>Infrastructure Provisioning 	
-        <ul>
+        <ul className="courses-nav">
               <li>Terraform</li>
               <li>AWS Cloudformation</li>
               <li>Azure Templates</li>
@@ -103,13 +103,51 @@ Our practical and applied approach has resulted in 85 percent of learners report
       
 
       <h2 className="title-with-underline">CI/CD</h2>
-      <ul>
-        <li>Python</li>
-        <li>Golang </li>
-        <li>Javascript</li>
-        <li>Ruby</li>
+      <ul className="courses-nav">
+        <li>Jenkins</li>
+        <li>TeamCity </li>
+        <li>Gitlab CI</li>
+        <li>Bitbucket Pipeline</li>
+        <li>Github Action</li>
       </ul> 
 
+      <h2 className="title-with-underline">Big Data</h2>
+      <ul className="courses-nav">
+        <li>Big Data Hadoop</li>
+      
+      </ul> 
+  
+
+      <h2 className="title-with-underline">Software Development</h2>
+      <ul className="courses-nav">
+        <li>Java </li>
+        <li>Full Stack </li>
+        <li>.Net Programming </li>
+        <li>Testing
+          <ul className="courses-nav">  
+            <li>Manual </li>
+            <li>Automation </li>
+          </ul>
+        </li>      
+      </ul> 
+      <h2 className="title-with-underline">Salesforce</h2>
+      <ul className="courses-nav">
+        <li>Admin & App Development </li>      
+      </ul> 
+
+      <h2 className="title-with-underline">Other Technologies</h2>
+      <ul className="courses-nav">
+        <li>Linux </li>      
+        <li>Networking </li>      
+        <li>Microsoft Dynamics CRM </li>      
+        <li>Mulesoft </li>      
+        <li>Power BI </li>      
+        <li>SAP BO </li>      
+        <li>SAP BW </li>      
+        <li>SAP EHS </li>      
+        <li>SAP FICO </li>      
+        
+      </ul> 
 
   </div>.
     </div>
