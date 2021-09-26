@@ -31,7 +31,7 @@ const Home: React.FC<any> = (props) => {
             <strong>Company Overview </strong>
           </p>
           <p>
-            NYBBLE TECHNOSOFT is a [location] based company founded in [year] that has improved the skills of many IT professionals through IT Training of Latest technologies, worked closely with small, medium, large enterprises to have highly skilled professionals and vital part in enterprise business applications deployment, cloud migration, and data engineering{" "}
+            NYBBLE TECHNOSOFT is a India based company founded in 2017 that has improved the skills of many IT professionals through IT Training of Latest technologies, worked closely with small, medium, large enterprises to have highly skilled professionals and vital part in enterprise business applications deployment, cloud migration, and data engineering{" "}
           </p>
           <div className="about-us-content">
             <div className="info-section">
