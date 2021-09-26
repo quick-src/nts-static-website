@@ -18,6 +18,7 @@ const OnlineCourses: React.FC<any> = (props) => {
             <img src={CorporatePic} alt="" className="course-image" />
             <div className="course-info">
               <h2 className="course-label">Corporate Training</h2>
+              
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy

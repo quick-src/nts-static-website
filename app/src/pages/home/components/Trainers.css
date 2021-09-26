@@ -24,6 +24,8 @@
 
 .trainer-card {
   padding: 0px 25px;
+  border: 1px solid #dee2e6!important;
+
 }
 
 .trainer-info {
@@ -46,7 +48,16 @@
 .trainer-info a {
   color: #0a70b6;
   font-weight: bold;
-  padding: 7px 20px;
   text-decoration: none;
   margin: 10px 0px;
+  border: 2px solid #0A70B6;
+  border-radius: 25px;
+  padding: 10px 50px;
+}
+.trainer-name {
+  font-size: 19px;
+    font-weight: 700;
+    color: #0A70B6;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
 }

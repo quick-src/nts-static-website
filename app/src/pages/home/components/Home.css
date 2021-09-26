@@ -182,8 +182,8 @@
 }
 
 .client-logos-container img {
-  height: 100px;
-  width: 150px;
+  height: 100%;
+  width: 100%;
   padding: 10px 25px;
 }
 

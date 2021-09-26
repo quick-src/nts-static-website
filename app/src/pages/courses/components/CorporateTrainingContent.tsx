@@ -29,10 +29,7 @@ const CorporateTrainingContent: React.FC<any> = (props) => {
           <h1>Courses</h1>
           <h4>Corporate Training</h4>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.{" "}
+{" "}
           </p>
           <div className="corporate-training-content">
             <div className="info-section">

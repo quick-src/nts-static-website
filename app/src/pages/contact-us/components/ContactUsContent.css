@@ -3,7 +3,7 @@
 }
 
 .title-with-underline {
-  width: 250px;
+  /* width: 250px; */
   text-align: center;
   color: #444444 !important;
   font-size: 42px;
@@ -57,7 +57,19 @@ iframe {
   justify-content: center;
   align-items: flex-start;
   flex-flow: column;
-  padding: 25px;
+  padding: 0px;
+  font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: #666666;
+  line-height: 32px;
+}
+
+.address-content {
+  padding: 5px;
+  width: 80%;
+  font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	color: #666666;
 }
 
 .contact-us-content-section .section-one .contact-info a {

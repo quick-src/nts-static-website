@@ -2,7 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f8f8f8;
+  background-color: #ffffff;
+  padding: 20px 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .footer {
@@ -20,7 +22,7 @@
 .footer .footer-links div {
   display: flex;
   flex-flow: column;
-  padding: 10px 0px;
+  padding: 50px 0px;
 }
 
 .footer .footer-links a {
@@ -49,7 +51,7 @@
 }
 
 .footer .copyright .content {
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
@@ -121,4 +123,9 @@
   .footer {
     max-width: 1160px;
   }
+}
+.text-dark {
+  color: #343a40!important;
+  font-family: 'Roboto', sans-serif;
+
 }

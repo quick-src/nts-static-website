@@ -8,16 +8,16 @@ import "./AboutUs.css";
 const Home: React.FC<any> = (props) => {
   const list = [
     {
-      key: "OUR_MISSION",
-      label: "Our Mission",
+      key: "IT Training & Certifications",
+      label: "IT Training & Certifications",
     },
     {
-      key: "OUR_VISION",
-      label: "Our Vision",
+      key: "IT Staff Augmentation",
+      label: "IT Staff Augmentation",
     },
     {
-      key: "CEO_MESSAGE",
-      label: "CEO Message",
+      key: "IT Project Development",
+      label: "IT Project Development",
     },
   ];
   const [selectedItem, setSelectedItem] = useState(list[0]?.key);
@@ -28,10 +28,10 @@ const Home: React.FC<any> = (props) => {
         <div className="container">
           <h1>About US</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.{" "}
+            <strong>Company Overview </strong>
+          </p>
+          <p>
+            NYBBLE TECHNOSOFT is a [location] based company founded in [year] that has improved the skills of many IT professionals through IT Training of Latest technologies, worked closely with small, medium, large enterprises to have highly skilled professionals and vital part in enterprise business applications deployment, cloud migration, and data engineering{" "}
           </p>
           <div className="about-us-content">
             <div className="info-section">

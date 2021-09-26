@@ -5,11 +5,11 @@ import "./CorporateTrainingContent.css";
 const Section1: React.FC<any> = (props) => {
   return (
     <div className="section1-container">
-      <h1>Soft skills training</h1>
+      <h1>Cloud Computing</h1>
       <div className="skill-details">
         <div className="skill-detail-item">
           <span className="label">Enrolled:</span>
-          <span className="value">1200 Students</span>
+          <span className="value">678 Students</span>
         </div>
         <div className="skill-detail-item">
           <span className="label">Duration:</span>
@@ -22,37 +22,99 @@ const Section1: React.FC<any> = (props) => {
       </div>
 
       <h2 className="title-with-underline">Description</h2>
+      <ul>
+        <li>AWS – Amazon Web Services </li>
+        <li>Microsoft Azure </li>
+        <li>GCP – Google Cloud </li>
+        <li>IBM – Bluemix</li>
+      </ul>      
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-        typesetting industry. Lorem Ipsum has been the industry's standard dummy
-        text ever since the 1500s, when an unknown printer took a galley of type
-        and scrambled it to make a type specimen book. It has survived not only
-        five centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+      IT Training & Certifications
+NYBBLE TECHNOSOFT provide meticulous online training in fields such as Cyber Security, Cloud Computing, Project Management, Digital Marketing, and Data Science, among others. We focus in technologies and best practices that are changing rapidly.
+We make sure to produce qualified candidates considerably.
+<br />
+<br />
+NYBBLE TECHNOSOFT based in Chennai, India, we have assisted more than 2K professionals get trained, acquire certifications, and improve their skills.
+Our practical and applied approach has resulted in 85 percent of learners reporting career benefits including promotions and new jobs after completing the training. 
+</p>
+<p>
+      NYBBLE TECHNOSOFT based in Chennai, India, we have assisted more than 2K professionals get trained, acquire certifications, and improve their skills.
+Our practical and applied approach has resulted in 85 percent of learners reporting career benefits including promotions and new jobs after completing the training.
+
         <br />
         <br />
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
+</p>
+
+<div>
+  
+<h1>DevOps</h1>
+      <div className="skill-details">
+        <div className="skill-detail-item">
+          <span className="label">Enrolled:</span>
+          <span className="value">678 Students</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Duration:</span>
+          <span className="value">2 Hours</span>
+        </div>
+        <div className="skill-detail-item">
+          <span className="label">Trainers:</span>
+          <span className="value">8</span>
+        </div>
+      </div>
+
+      <h3 className="title-with-underline">Programming Languages</h3>
+      <ul>
+        <li>Python</li>
+        <li>Golang </li>
+        <li>Javascript</li>
+        <li>Ruby</li>
+      </ul> 
+      <h2 className="title-with-underline">Infrastructure as code</h2>
+      <ul>
+        <li>Configuration Management
+          <ul>
+              <li>Ansible </li>
+              <li>Puppet </li>
+              <li>Chef </li>
+              <li>Salt Stack </li>
+          </ul>
+          </li>
+        <li>Containers Orchestrators
+          <ul>
+              <li>Docker</li>
+              <li>Kubernetes</li>
+              <li>Openshift</li>
+              <li>Docker swarm</li>
+          </ul>
+        </li>
+        
+        <li>Infrastructure Provisioning 	
+        <ul>
+              <li>Terraform</li>
+              <li>AWS Cloudformation</li>
+              <li>Azure Templates</li>
+              <li>Google Deployment Manager</li>
+          </ul>
+        </li>
+
+        
+      </ul> 
+      
+
+      <h2 className="title-with-underline">CI/CD</h2>
+      <ul>
+        <li>Python</li>
+        <li>Golang </li>
+        <li>Javascript</li>
+        <li>Ruby</li>
+      </ul> 
+
+
+  </div>.
     </div>
+
+    
   );
 };
 
