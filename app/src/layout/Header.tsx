@@ -1,6 +1,7 @@
 import React from "react";
 
 import Logo from "../assets/Logo.svg";
+import IndiaIcon from "../assets/India-Flag-icon.png";
 import { routes } from "../helpers";
 
 import "./Header.css";
@@ -8,11 +9,19 @@ import "./Header.css";
 const Header: React.FC<any> = (props) => {
   return (
     <>
-
-
       <header>
-
         <nav className="navbar fixed-top navbar-light  desktop-device-show">
+          <div className="sub-header">
+            <div className="container">
+              <ul>
+                <li>
+                  <img src={IndiaIcon} alt="" />
+                  +91 12345 78910
+                </li>
+                <li>training@nybbletechnosoft.com</li>
+              </ul>
+            </div>
+          </div>
           <div className="container-fluid">
             <a className="navbar-brand" href={routes.home}>
               <img src={Logo} alt="" className="header-logo" />
@@ -24,6 +33,26 @@ const Header: React.FC<any> = (props) => {
                 </a>
               </li>
               <li className="nav-item">
+                <a href={routes.aboutUs} className="menu-item">
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href={routes.itStaffing} className="menu-item">
+                  IT Staffing
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href={routes.projects} className="menu-item">
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href={routes.blogs} className="menu-item">
+                  Blog
+                </a>
+              </li>
+              {/* <li className="nav-item">
                 <div className="menu-item">
                   <div className="menu-label">Company</div>
                   <div className="menu-list">
@@ -33,7 +62,7 @@ const Header: React.FC<any> = (props) => {
                     <a href={routes.blogs}>Blog</a>
                   </div>
                 </div>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <div className="menu-item">
                   <div className="menu-label">Courses</div>
@@ -55,7 +84,7 @@ const Header: React.FC<any> = (props) => {
                   Contact Us
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href={routes.home} className="sign-up">
                   Sign Up
                 </a>
@@ -64,11 +93,17 @@ const Header: React.FC<any> = (props) => {
                 <a href={routes.home} className="login">
                   Login
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </nav>
         <div className="navbar fixed-top navbar-light mobile-device-show">
+          <div className="sub-header">
+            <ul>
+              <li>+91 12345 78910</li>
+              <li>training@nybbletechnosoft.com</li>
+            </ul>
+          </div>
           <div className="container-fluid">
             <a className="navbar-brand" href={routes.home}>
               <img src={Logo} alt="" className="header-logo" />
@@ -123,7 +158,7 @@ const Header: React.FC<any> = (props) => {
                     Contact Us
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a href={routes.home} className="sign-up">
                     Sign Up
                   </a>
@@ -132,13 +167,13 @@ const Header: React.FC<any> = (props) => {
                   <a href={routes.home} className="login">
                     Login
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
         </div>
       </header>
-      <div style={{ height: "107px" }}></div>
+      <div style={{ height: "143px" }}></div>
     </>
   );
 };

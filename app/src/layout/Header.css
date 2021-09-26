@@ -1,58 +1,75 @@
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #F7941E;
-	height: 46px;
-	line-height: 46px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #f7941e;
+  height: 46px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.sub-header ul {
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
 }
 
 .sub-header ul li {
-	display: inline-block;
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.sub-header ul li img {
+  height: 40px;
+  width: 40px;
+  padding-right: 5px;
 }
 
 .sub-header ul.left-info li {
-	border-left: 1px solid rgba(250,250,250,0.3);
-	padding: 0px 20px;
+  border-left: 1px solid rgba(250, 250, 250, 0.3);
+  padding: 0px 20px;
 }
 
 .sub-header ul.left-info li:last-child {
-	border-right: 1px solid rgba(250,250,250,0.3);
+  border-right: 1px solid rgba(250, 250, 250, 0.3);
 }
 
 .sub-header ul.left-info li i {
-	margin-right: 10px;
-	font-size: 18px;
+  margin-right: 10px;
+  font-size: 18px;
 }
 
 .sub-header ul.left-info li a {
-	color: #fff;
-	font-size: 14px;
-	font-weight: 600;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
 }
 
 .sub-header ul.right-icons {
-	float: right;
+  float: right;
 }
 
 .sub-header ul.right-icons li {
-	margin-right: -4px;
-	width: 46px;
-	display: inline-block;
-	text-align: center;
-	border-right: 1px solid rgba(250,250,250,0.3);
+  margin-right: -4px;
+  width: 46px;
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid rgba(250, 250, 250, 0.3);
 }
 
 .sub-header ul.right-icons li:first-child {
-	border-left: 1px solid rgba(250,250,250,0.3);
+  border-left: 1px solid rgba(250, 250, 250, 0.3);
 }
 
 .sub-header ul.right-icons li a {
-	color: #fff;
-	transition: all 0.3s;
+  color: #fff;
+  transition: all 0.3s;
 }
 
 .sub-header ul.right-icons li a:hover {
-	opacity: 0.75;
+  opacity: 0.75;
 }
 
 .navbar {
@@ -61,7 +78,8 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem 1rem;
+  /* padding: 1rem 1rem; */
+  padding-top: 0px !important;
   background-color: #ffffff;
   border-bottom: 1px solid #e9e9e9;
 }
@@ -172,6 +190,10 @@
 }
 
 @media (max-width: 576px) {
+  .sub-header {
+    font-size: 13px;
+  }
+
   .container-fluid {
     max-width: 540px;
   }
@@ -238,4 +260,3 @@
     display: none !important;
   }
 }
-
