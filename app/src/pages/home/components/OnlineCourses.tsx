@@ -1,7 +1,7 @@
 import React from "react";
 
 import Pic from "../../../assets/404.png";
-import CorporatePic from "../../../assets/Image 8.png";
+import CorporatePic from "../../../assets/Shiksha2Rozgaar.jpg";
 import OnlinePic from "../../../assets/Mask Group 2.png";
 import CertificatePic from "../../../assets/Mask Group 3.png";
 import "./Home.css";

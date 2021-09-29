@@ -1,50 +1,23 @@
 export const projects = [
   {
-    label: "NTS Project ",
+    label: "Lorven Drilling",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "Lorven Drilling have been providing complete turnkey borehole drilling and water well drilling services for over 20 years. Drilling is an art that we have mastered. We believe in quality and customer satisfaction only, always looking for the right solution at a very affordable price. our company has the great reputation in this field and borehole drilling for various dimensions with depth ranging from 50 to 300 meters.",
     actionLabel: "More Details",
-    redirectURL: "/project?projectId=123",
+    redirectURL: "https://lorvendrilling.com/",
   },
   {
-    label: "Lenovo Project ",
+    label: "CASPIUS",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "CASPIUS is a leading provider of Information technology solutions. We provide end to end solutions to the various software applications and services. Our highly committed, experienced and multi-talented team of professionals work exhaustively from a project inception to its successful completion to ensure you are completely satisfied with the outcome of your project.",
     actionLabel: "More Details",
-    redirectURL: "/project?projectId=123",
+    redirectURL: "https://caspius.ca/",
   },
+
   {
-    label: "SharePoint Project ",
+    label: "Shiksha2Rozgaar.com ",
     content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-    actionLabel: "More Details",
-    redirectURL: "/project?projectId=123",
-  },
-  {
-    label: "Dashboard UI",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-    actionLabel: "More Details",
-    redirectURL: "/project?projectId=123",
-  },
-  {
-    label: "Demo Project 1 ",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-    actionLabel: "More Details",
-    redirectURL: "/project?projectId=123",
-  },
-  {
-    label: "Demo Project 2 ",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
-    actionLabel: "More Details",
-    redirectURL: "/project?projectId=123",
-  },
-  {
-    label: "Demo Project 3 ",
-    content:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. ",
+      "Shiksha2Rozgaar.com in Hyderabad offers a host of integrated services that succumb to the various requirements of the clients and candidates. Apart from providing hiring services, they provide consultancy by trying to understand the client’s needs and requirements before starting the hiring procedure. They also have trained personnel who understand the job needs and preferences of the candidates and further help them in seeking their careers.",
     actionLabel: "More Details",
     redirectURL: "/project?projectId=123",
   },
