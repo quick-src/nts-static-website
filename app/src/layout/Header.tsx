@@ -16,9 +16,9 @@ const Header: React.FC<any> = (props) => {
               <ul>
                 <li>
                   <img src={IndiaIcon} alt="" />
-                  +91 12345 78910
+                  +91 89789 55377
                 </li>
-                <li>training@nybbletechnosoft.com</li>
+                <li>info@nybbletechnosoft.com</li>
               </ul>
             </div>
           </div>

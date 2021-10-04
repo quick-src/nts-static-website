@@ -29,8 +29,9 @@ const Footer: React.FC<any> = (props) => {
           </div>
           <div className="contact-us">
             <h3>contact us</h3>
-            <a href="#">+12345678910</a>
-            <a href="#">info@domain.com</a>
+            <a href="#">+91 40485 55377</a>
+            <a href="#">+91 89789 55377</a>
+            <a href="#">info@nybbletechnosoft.com</a>
           </div>
         </div>
         <div className="copyright">
