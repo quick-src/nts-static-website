@@ -30,8 +30,14 @@ const Header: React.FC<any> = (props) => {
           <div className="sub-header">
             <div className="container">
               <ul>
-                <li>+91 12345 78910</li>
-                <li>training@nybbletechnosoft.com</li>
+                <li>
+                  <i className="fa fa-phone" />
+                  +91 12345 78910
+                </li>
+                <li>
+                  <i className="fa fa-envelope" />
+                  training@nybbletechnosoft.com
+                </li>
               </ul>
             </div>
           </div>
@@ -67,11 +73,6 @@ const Header: React.FC<any> = (props) => {
               <li className="nav-item">
                 <a href={routes.aboutUs} className="menu-item">
                   About Us
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href={routes.blogs} className="menu-item">
-                  Blog
                 </a>
               </li>
               <li className="nav-item">
@@ -144,11 +145,6 @@ const Header: React.FC<any> = (props) => {
                 <li className="nav-item">
                   <a href={routes.aboutUs} className="menu-item">
                     About Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href={routes.blogs} className="menu-item">
-                    Blog
                   </a>
                 </li>
                 <li className="nav-item">
