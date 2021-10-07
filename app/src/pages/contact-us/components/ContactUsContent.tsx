@@ -12,13 +12,16 @@ const ContactUsContent: React.FC<any> = (pros) => {
             <h1 className="title-with-underline">Address</h1>
           </div>
           <div className="address-content">
-            3691 Holt Street, Boynton Beach FL, Florida - 33435
+              NTS-Nybble TechnoSoft 502,<br/>
+              BDR Residency MIG-2-573, Road No.1, KPHB Colony,<br/>
+              Kukatpally, Hyderabad - 500072,<br/>
+              Telangana, INDIA.
           </div>
           <div className="contact-info">
-            <a href="#">+12345678910</a>
-            <a href="#">+12345678910</a>
-            <a href="#">info@domain.com</a>
-            <a href="#">info@domain.com</a>
+            <a href="#">+91 40485 55377</a>
+            <a href="#">+91 89789 55377</a>
+            <a href="#">info@nybbletechnosoft.com</a>
+            {/* <a href="#">www.nybbletechnosoft.com</a> */}
           </div>
         </div>
         <iframe

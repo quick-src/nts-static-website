@@ -171,7 +171,7 @@ Our practical and applied approach has resulted in 85 percent of learners report
             <li>Manual </li>
             <li>Automation </li>
           </ul>
-        </li>      
+        </li>
       </ul> 
       <h2 className="title-with-underline">Salesforce</h2>
       <div className="skill-details">

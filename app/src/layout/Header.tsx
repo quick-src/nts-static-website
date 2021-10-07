@@ -41,9 +41,9 @@ const Header: React.FC<any> = (props) => {
                 <div className="menu-item">
                   <div className="menu-label">Courses</div>
                   <div className="menu-list">
-                    <a href={routes.corporateTraining}>Corporate Training</a>
-                    <a href={routes.onlineTraining}>Online Training</a>
+                    <a href={routes.onlineTraining}>Online</a>
                     <a href={routes.certifications}>Certifications</a>
+                    <a href={routes.corporateTraining}>Corporate Training</a>
                   </div>
                 </div>
               </li>
@@ -61,6 +61,11 @@ const Header: React.FC<any> = (props) => {
                 {" "}
                 <a href={routes.becomeTrainer} className="menu-item">
                   Become Trainer
+                </a>
+              </li>
+              <li className="nav-item">
+                <a href={routes.blogs} className="menu-item">
+                  Blog
                 </a>
               </li>
               <li className="nav-item">
@@ -113,9 +118,9 @@ const Header: React.FC<any> = (props) => {
                   <div className="menu-item">
                     <div className="menu-label">Courses</div>
                     <div className="menu-list">
-                      <a href={routes.corporateTraining}>Corporate Training</a>
-                      <a href={routes.onlineTraining}>Online Training</a>
+                      <a href={routes.onlineTraining}>Online</a>
                       <a href={routes.certifications}>Certifications</a>
+                      <a href={routes.corporateTraining}>Corporate Training</a>
                     </div>
                   </div>
                 </li>
@@ -133,6 +138,11 @@ const Header: React.FC<any> = (props) => {
                   {" "}
                   <a href={routes.becomeTrainer} className="menu-item">
                     Become Trainer
+                  </a>
+                </li>
+                <li className="nav-item">
+                  <a href={routes.blogs} className="menu-item">
+                    Blog
                   </a>
                 </li>
                 <li className="nav-item">

@@ -33,8 +33,8 @@ const App: React.FC<any> = () => {
             />
             <Route
               exact
-              key={paths.corporateTraining}
-              path={paths.corporateTraining}
+              key={paths.onlineTraining}
+              path={paths.onlineTraining}
               component={CorporateTraining}
             />
             <Route
