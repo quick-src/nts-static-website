@@ -38,7 +38,27 @@ const Footer: React.FC<any> = (props) => {
           <div className="content">
             Copyright © 2021 Nybble TechnoSoft.com. All Rights Reserved
           </div>
-          <div className="social-links">social links</div>
+          <div className="social-links">
+          
+          <div className="icon-bar-footer ">
+        <a href="#" className="facebook">
+          <i className="fa fa-facebook"></i>
+        </a>
+        <a href="#" className="twitter">
+          <i className="fa fa-twitter"></i>
+        </a>
+        <a href="#" className="google">
+          <i className="fa fa-google"></i>
+        </a>
+        <a href="#" className="linkedin">
+          <i className="fa fa-linkedin"></i>
+        </a>
+        <a href="#" className="youtube">
+          <i className="fa fa-youtube"></i>
+        </a>
+      </div>
+
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,8 @@
 import React from "react";
 
-import GoogleClientPic from "../../../assets/instagram_client.png";
+import GoogleClientPic1 from "../../../assets/client1.png";
+import GoogleClientPic2 from "../../../assets/client2.png";
+import GoogleClientPic3 from "../../../assets/client3.png";
 
 import "./Home.css";
 
@@ -12,12 +14,9 @@ const Clients: React.FC<any> = (props) => {
           <h1 className="title-with-underline">Our Clients</h1>
         </div>
         <div className="client-logos-container">
-          <img src={GoogleClientPic} alt="" />
-          <img src={GoogleClientPic} alt="" />
-          <img src={GoogleClientPic} alt="" />
-          <img src={GoogleClientPic} alt="" />
-          <img src={GoogleClientPic} alt="" />
-          <img src={GoogleClientPic} alt="" />
+          <img src={GoogleClientPic1} alt="" />
+          <img src={GoogleClientPic2} alt="" />
+          <img src={GoogleClientPic3} alt="" />
         </div>
       </div>
     </div>

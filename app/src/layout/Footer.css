@@ -52,7 +52,9 @@
 
 .footer .copyright .content {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #646464;
 }
 
 @media (max-width: 576px) {
