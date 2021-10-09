@@ -38,6 +38,20 @@ const Header: React.FC<any> = (props) => {
                   <i className="fa fa-envelope" />
                   training@nybbletechnosoft.com
                 </li>
+                <li>                
+                  <div className="notification-box">
+                  <span className="notification-count">6</span>
+                  <div className="notification-bell">
+                    <span className="bell-top"></span>
+                    <span className="bell-middle"></span>
+                    <span className="bell-bottom"></span>
+                    <span className="bell-rad"></span>
+                  </div>
+                  </div>
+                </li>
+                <li>
+                  <a className="rainbow rainbow-5">Hot requirements! </a>
+                </li>               
               </ul>
             </div>
           </div>
