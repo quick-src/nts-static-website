@@ -4,9 +4,10 @@
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+  z-index: 1;
 }
 
-.icon-bar  a {
+.icon-bar a {
   display: block;
   text-align: center;
   padding: 10px;
@@ -19,8 +20,7 @@
   margin-bottom: 5px;
 }
 
-
-.icon-bar  a:hover {
+.icon-bar a:hover {
   background-color: #000;
 }
 
@@ -40,7 +40,6 @@
 .icon-bar-footer a:hover {
   background-color: #000;
 }
-
 
 .facebook {
   background: #3b5998;
