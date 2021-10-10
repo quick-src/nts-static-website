@@ -169,7 +169,7 @@
 
 .header-logo {
   height: 80px;
-  width: 150px;
+  width: 225px;
 }
 
 .menu-item {
@@ -180,7 +180,7 @@
   padding: 15px 15px;
   text-decoration: none;
   text-transform: capitalize;
-  color: #3b3b3b;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -193,7 +193,7 @@
   text-decoration: none;
   text-transform: capitalize;
   cursor: pointer;
-  color: #0a70b6;
+  color: #98d0ec;
 }
 
 .sign-up {
@@ -241,14 +241,14 @@
 }
 
 .menu-list a {
-  color: black;
+  color: #fff;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
 }
 
 .menu-list a:hover {
-  background-color: #f1f1f1;
+  background-color: #818181;
 }
 
 .menu-item:hover .menu-list {
@@ -260,7 +260,8 @@
   right: 0;
   left: 0;
   z-index: 1030;
-  border-bottom: 2px solid #0a58ca !important;
+  border-bottom: 3px solid #404040 !important;
+  background: #0d0d0d;
 }
 @media (max-width: 576px) {
   .sub-header {

@@ -57,7 +57,24 @@ code {
   border-radius: 10px;
 }
 
+
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #444; 
+}
+
+
+.slider-bg {
+  background-color: #0d0d0d;
+  padding: 0px 0 0 0px;
+  height: 120px;
+  width: 100%;
+  z-index: 99999;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 55px;
+  font-weight: 600;
+  text-transform: capitalize;
 }

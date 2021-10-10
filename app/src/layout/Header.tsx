@@ -1,6 +1,7 @@
 import React from "react";
 
-import Logo from "../assets/Logo.svg";
+//import Logo from "../assets/Logo.svg";
+import Logo from "../assets/nts-logo.png";
 import { routes } from "../helpers";
 
 import "./Header.css";
