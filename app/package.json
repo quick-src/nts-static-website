@@ -1,5 +1,6 @@
 {
   "name": "nts-static-website",
+  "homepage": "https://www.nybbletechnosoft.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

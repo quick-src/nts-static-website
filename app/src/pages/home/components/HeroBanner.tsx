@@ -48,10 +48,6 @@ const HeroBanner: React.FC<any> = (props) => {
         </div>
       </Slider>
 
-   
-<div className="slider-bg" > 
-<span>Innovating * Consulting * Kting </span>
-</div>
 
       
     </div>
