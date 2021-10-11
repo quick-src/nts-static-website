@@ -1,6 +1,6 @@
 {
   "name": "nts-static-website",
-  "homepage": "http://www.staging.nybbletechnosoft.com/",
+  "homepage": "http://staging.nybbletechnosoft.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
