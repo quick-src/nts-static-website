@@ -1,5 +1,6 @@
 import React from "react";
 
+import ContactUs from "./ContactUs";
 //import Logo from "../assets/Logo.svg";
 import Logo from "../assets/nts-logo.png";
 import { routes } from "../helpers";
@@ -9,6 +10,7 @@ import "./Header.css";
 const Header: React.FC<any> = (props) => {
   return (
     <>
+      <ContactUs />
       <div className="icon-bar">
         <a href="#" className="facebook">
           <i className="fa fa-facebook"></i>
@@ -39,20 +41,20 @@ const Header: React.FC<any> = (props) => {
                   <i className="fa fa-envelope" />
                   training@nybbletechnosoft.com
                 </li>
-                <li>                
+                <li>
                   <div className="notification-box">
-                  <span className="notification-count">6</span>
-                  <div className="notification-bell">
-                    <span className="bell-top"></span>
-                    <span className="bell-middle"></span>
-                    <span className="bell-bottom"></span>
-                    <span className="bell-rad"></span>
-                  </div>
+                    <span className="notification-count">6</span>
+                    <div className="notification-bell">
+                      <span className="bell-top"></span>
+                      <span className="bell-middle"></span>
+                      <span className="bell-bottom"></span>
+                      <span className="bell-rad"></span>
+                    </div>
                   </div>
                 </li>
                 <li>
                   <a className="rainbow rainbow-5">Hot requirements! </a>
-                </li>               
+                </li>
               </ul>
             </div>
           </div>
