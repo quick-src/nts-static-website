@@ -10,7 +10,7 @@ const HeroBanner: React.FC<any> = (props) => {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 2500,
+    autoplaySpeed: 2000,
   };
 
   return (

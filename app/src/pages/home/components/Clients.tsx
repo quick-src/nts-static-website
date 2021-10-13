@@ -13,17 +13,18 @@ const Clients: React.FC<any> = (props) => {
         <div className="title-container">
           <h1 className="title-with-underline">Our Clients</h1>
         </div>
-        <div className="row col-md-12">
-            <div className="col-md-2">
+        <div className="row col-md-12 our-clients-section ">
+            <div className="col-md-1"></div>
+            <div className="col-md-2 clients-logo-border">
               <img src={GoogleClientPic1} alt="" />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 clients-logo-border">
               <img src={GoogleClientPic2} alt="" />
             </div>
-            <div className="col-md-2">
+            <div className="col-md-2 clients-logo-border">
               <img src={GoogleClientPic3} alt="" />              
             </div>
-            <div className="col-md-6"></div>
+            <div className="col-md-4"></div>
         </div>
       </div>
     </div>

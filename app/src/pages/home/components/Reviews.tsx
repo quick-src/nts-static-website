@@ -31,7 +31,7 @@ const Reviews: React.FC<any> = (props) => {
     <div className="reviews">
       <div className="container">
         <div className="title-container">
-          <h1 className="title-with-underline">Reviews</h1>
+          <h1 className="title-with-underline">Testimonial</h1>
         </div>
         <div className="reviews-list">
           <Slider {...settings}>

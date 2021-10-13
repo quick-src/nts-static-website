@@ -33,22 +33,11 @@ const Header: React.FC<any> = (props) => {
               <ul>
                 <li>
                   <i className="fa fa-phone" />
-                  +91 12345 78910
+                  +9140-48555377
                 </li>
                 <li>
                   <i className="fa fa-envelope" />
-                  training@nybbletechnosoft.com
-                </li>
-                <li>                
-                  <div className="notification-box">
-                  <span className="notification-count">6</span>
-                  <div className="notification-bell">
-                    <span className="bell-top"></span>
-                    <span className="bell-middle"></span>
-                    <span className="bell-bottom"></span>
-                    <span className="bell-rad"></span>
-                  </div>
-                  </div>
+                  info@nybbletechnosoft.com
                 </li>
                 <li>
                   <a className="rainbow rainbow-5">Hot requirements! </a>
@@ -112,8 +101,8 @@ const Header: React.FC<any> = (props) => {
         <div className="navbar fixed-top navbar-light mobile-device-show">
           <div className="sub-header">
             <ul>
-              <li>+91 12345 78910</li>
-              <li>training@nybbletechnosoft.com</li>
+              <li>+9140-48555377</li>
+              <li>info@nybbletechnosoft.com</li>
             </ul>
           </div>
           <div className="container-fluid">
