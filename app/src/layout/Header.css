@@ -238,17 +238,22 @@
   z-index: 1;
   font-weight: normal;
   text-transform: none;
+  
 }
 
 .menu-list a {
-  color: #fff;
+  color: #000;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+
+
 }
 
 .menu-list a:hover {
-  background-color: #818181;
+  background-color: #404040;
+  color: #fff;
+
 }
 
 .menu-item:hover .menu-list {

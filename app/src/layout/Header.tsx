@@ -39,9 +39,7 @@ const Header: React.FC<any> = (props) => {
                 </li>
                 <li>
                   <i className="fa fa-envelope" />
-<<<<<<< HEAD
-                  info@nybbletechnosoft.com
-=======
+
                   training@nybbletechnosoft.com
                 </li>
                 <li>
@@ -54,7 +52,6 @@ const Header: React.FC<any> = (props) => {
                       <span className="bell-rad"></span>
                     </div>
                   </div>
->>>>>>> 0721a3589965782312ad0f9a75fb2c48024f6f8b
                 </li>
                 <li>
                   <a className="rainbow rainbow-5">Hot requirements! </a>
