@@ -39,10 +39,9 @@ const Header: React.FC<any> = (props) => {
                 </li>
                 <li>
                   <i className="fa fa-envelope" />
-
                   training@nybbletechnosoft.com
                 </li>
-                <li>
+                {/* <li>
                   <div className="notification-box">
                     <span className="notification-count">6</span>
                     <div className="notification-bell">
@@ -52,7 +51,7 @@ const Header: React.FC<any> = (props) => {
                       <span className="bell-rad"></span>
                     </div>
                   </div>
-                </li>
+                </li> */}
                 <li>
                   <a className="rainbow rainbow-5">Hot requirements! </a>
                 </li>
@@ -186,7 +185,7 @@ const Header: React.FC<any> = (props) => {
           </div>
         </div>
       </header>
-      <div style={{ height: "143px" }}></div>
+      <div style={{ height: "108px" }}></div>
     </>
   );
 };

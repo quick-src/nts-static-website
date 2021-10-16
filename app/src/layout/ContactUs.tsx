@@ -8,10 +8,13 @@ const ContactUs: React.FC<any> = () => {
 
   useEffect(() => {
     const chatBox: any = document.getElementById("chatBox");
+    const chatIcon: any = document.getElementById("chat-circle");
     if (isOpen) {
       chatBox.style.display = "block";
+      chatIcon.style.display = "none";
     } else {
       chatBox.style.display = "none";
+      chatIcon.style.display = "block";
     }
   }, [isOpen]);
 

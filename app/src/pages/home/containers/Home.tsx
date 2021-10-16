@@ -13,12 +13,12 @@ const Home: React.FC<any> = (props) => {
   return (
     <>
       <HeroBanner />
+      <Clients />
       <OnlineCourses />
       <ITStaffing />
       <Projects />
       <Why />
       <Trainers />
-      <Clients />
       <Reviews />
     </>
   );

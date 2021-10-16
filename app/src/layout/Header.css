@@ -74,8 +74,8 @@
   justify-content: flex-end;
   background-color: #404040;
   /* background-color: #f7941e; */
-  height: 46px;
-  line-height: 46px;
+  height: 40px;
+  line-height: 40px;
   color: #ffffff;
 }
 
@@ -168,14 +168,14 @@
 }
 
 .header-logo {
-  height: 80px;
-  width: 225px;
+  height: 68px;
+  width: 200px;
 }
 
 .menu-item {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   padding: 15px 15px;
   text-decoration: none;
@@ -187,7 +187,7 @@
 .menu-item-active {
   display: flex;
   align-items: center;
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   padding: 15px 15px;
   text-decoration: none;
@@ -238,7 +238,6 @@
   z-index: 1;
   font-weight: normal;
   text-transform: none;
-  
 }
 
 .menu-list a {
@@ -246,14 +245,11 @@
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-
-
 }
 
 .menu-list a:hover {
   background-color: #404040;
   color: #fff;
-
 }
 
 .menu-item:hover .menu-list {
@@ -340,9 +336,7 @@
   }
 }
 
-
 /* Alert css  */
-
 
 .notification-box {
   position: fixed;
@@ -381,7 +375,7 @@
 }
 .bell-bottom::before,
 .bell-bottom::after {
-  content: '';
+  content: "";
   position: absolute;
   top: -4px;
 }
@@ -419,27 +413,63 @@
   animation: zoom 3s 3s both infinite;
 }
 @keyframes bell {
-  0% { transform: rotate(0); }
-  10% { transform: rotate(30deg); }
-  20% { transform: rotate(0); }
-  80% { transform: rotate(0); }
-  90% { transform: rotate(-30deg); }
-  100% { transform: rotate(0); }
+  0% {
+    transform: rotate(0);
+  }
+  10% {
+    transform: rotate(30deg);
+  }
+  20% {
+    transform: rotate(0);
+  }
+  80% {
+    transform: rotate(0);
+  }
+  90% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
 }
 @keyframes rad {
-  0% { transform: translateX(0); }
-  10% { transform: translateX(6px); }
-  20% { transform: translateX(0); }
-  80% { transform: translateX(0); }
-  90% { transform: translateX(-6px); }
-  100% { transform: translateX(0); }
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(6px);
+  }
+  20% {
+    transform: translateX(0);
+  }
+  80% {
+    transform: translateX(0);
+  }
+  90% {
+    transform: translateX(-6px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 @keyframes zoom {
-  0% { opacity: 0; transform: scale(0); }
-  10% { opacity: 1; transform: scale(1); }
-  50% { opacity: 1; }
-  51% { opacity: 0; }
-  100% { opacity: 0; }
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  10% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+  }
+  51% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 @keyframes moon-moving {
   0% {
@@ -450,51 +480,55 @@
   }
 }
 
+.a {
+  color: #e7484f;
+}
+.b {
+  color: #f68b1d;
+}
+.c {
+  color: #fced00;
+}
+.d {
+  color: #009e4f;
+}
+.e {
+  color: #00aac3;
+}
+.f {
+  color: #732982;
+}
 
-.a{color: #E7484F}
-.b{color: #F68B1D}
-.c{color: #FCED00}
-.d{color: #009E4F}
-.e{color: #00AAC3}
-.f{color:  #732982}
-
-
-
-.rainbow{
-  background-color: #343A40;
-  border-radius: 6px;  
+.rainbow {
+  background-color: #343a40;
+  border-radius: 6px;
   color: #fff;
   cursor: pointer;
   padding: 8px 16px;
-  
 }
 
-.rainbow-5{
-   background-image:     linear-gradient(
-      to right, 
-      #E7484F,
-      #E7484F 16.65%,
-      #F68B1D 16.65%,
-      #F68B1D 33.3%,
-      #FCED00 33.3%,
-      #FCED00 49.95%,
-      #009E4F 49.95%,
-      #009E4F 66.6%,
-      #00AAC3 66.6%,
-      #00AAC3 83.25%,
-      #732982 83.25%,
-      #732982 100%,
-      #E7484F 100%
-     
-     
-     
-    );
-  animation:slidebg 2s linear infinite;
+.rainbow-5 {
+  background-image: linear-gradient(
+    to right,
+    #e7484f,
+    #e7484f 16.65%,
+    #f68b1d 16.65%,
+    #f68b1d 33.3%,
+    #fced00 33.3%,
+    #fced00 49.95%,
+    #009e4f 49.95%,
+    #009e4f 66.6%,
+    #00aac3 66.6%,
+    #00aac3 83.25%,
+    #732982 83.25%,
+    #732982 100%,
+    #e7484f 100%
+  );
+  animation: slidebg 2s linear infinite;
 }
-
 
 @keyframes slidebg {
   to {
-    background-position:20vw;
+    background-position: 20vw;
   }
 }
