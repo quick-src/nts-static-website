@@ -39,7 +39,7 @@ const Header: React.FC<any> = (props) => {
                 </li>
                 <li>
                   <i className="fa fa-envelope" />
-                  training@nybbletechnosoft.com
+                  info@nybbletechnosoft.com
                 </li>
                 {/* <li>
                   <div className="notification-box">
