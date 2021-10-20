@@ -15,6 +15,9 @@ const HeroBanner: React.FC<any> = (props) => {
 
   return (
     <div className="hero-banner">
+      <div className="slider-bg">
+        <a className="rainbow rainbow-5">Hot requirements! </a>
+      </div>
       <Slider {...settings}>
         <div className="slide-1">
           <div className="container">

@@ -52,9 +52,9 @@ const Header: React.FC<any> = (props) => {
                     </div>
                   </div>
                 </li> */}
-                <li>
+                {/* <li>
                   <a className="rainbow rainbow-5">Hot requirements! </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
