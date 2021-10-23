@@ -1,11 +1,67 @@
 .hero-banner {
-  height: 670px;
+  height: 500px;
   width: 100%;
   overflow: hidden;
 }
 
+.slider-bg-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  height: 80px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.slider-bg-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d0d0d;
+  padding: 15px 50px;
+  height: 100px;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.slider-bg-bottom .why-nyt-section {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-bg-bottom .why-icon img {
+  height: 50px;
+  width: 100px;
+}
+
+.hero-banner .slick-next {
+  right: 50px !important;
+}
+
+.hero-banner .slick-prev {
+  left: 50px !important;
+  z-index: 1;
+}
+
+.hero-banner .slick-dots {
+  bottom: 25px !important;
+}
+
 .slide-1 {
-  height: 650px;
+  height: 500px;
   width: 100%;
   background-image: url("../../../assets/slider-1.png");
   display: flex !important;
@@ -18,7 +74,7 @@
 }
 
 .slide-2 {
-  height: 650px;
+  height: 500px;
   background-image: url("../../../assets/slider-2.png");
   display: flex !important;
   justify-content: flex-start;
@@ -31,7 +87,7 @@
 }
 
 .slide-3 {
-  height: 650px;
+  height: 500px;
   background-image: url("../../../assets/slider-3.png");
   /* background-image: linear-gradient(
       rgb(10, 112, 182, 0.4),
