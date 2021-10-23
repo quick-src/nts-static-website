@@ -26,7 +26,7 @@ const ContactUs: React.FC<any> = () => {
         onClick={() => setIsOpen(!isOpen)}
       >
         <div id="chat-overlay"></div>
-        <i className="fa fa-phone"></i>
+        <div className="connect-text">Connect with NTS</div>
       </div>
 
       <div id="chatBox" className="chat-box">
