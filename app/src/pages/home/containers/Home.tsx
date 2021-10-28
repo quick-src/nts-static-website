@@ -4,7 +4,7 @@ import HeroBanner from "../components/HeroBanner";
 import OnlineCourses from "../components/OnlineCourses";
 import ITStaffing from "../components/ITStaffing";
 import Projects from "../components/Projects";
-import Why from "../components/Why";
+// import Why from "../components/Why";
 import Trainers from "../components/Trainers";
 import Clients from "../components/Clients";
 import Reviews from "../components/Reviews";
@@ -17,7 +17,7 @@ const Home: React.FC<any> = (props) => {
       <OnlineCourses />
       <ITStaffing />
       <Projects />
-      <Why />
+      {/* <Why /> */}
       <Trainers />
       <Reviews />
     </>

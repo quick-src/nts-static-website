@@ -53,12 +53,15 @@ const HeroBanner: React.FC<any> = (props) => {
         <div className="why-nyt-section">
           <div className="why-icon">
             <img src={Icon} alt="" />
+            <p>Nybble technosoft</p>
           </div>
           <div className="why-icon">
             <img src={Icon} alt="" />
+            <p>Nybble technosoft</p>
           </div>
           <div className="why-icon">
             <img src={Icon} alt="" />
+            <p>Nybble technosoft</p>
           </div>
         </div>
       </div>
