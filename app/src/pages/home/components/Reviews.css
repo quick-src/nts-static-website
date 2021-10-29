@@ -1,6 +1,6 @@
 .reviews {
   padding: 50px 20px;
-  background-color: #444444;
+  background-color: #fbfbfb;
 }
 
 .reviews .title-container {
@@ -11,11 +11,11 @@
 
 .reviews .title-with-underline {
   text-align: center;
-  color: #ffff !important;
+  color: #444444;
   font-size: 42px;
   padding-bottom: 5px;
   font-weight: bold;
-  border-bottom: 5px solid #ffff;
+  border-bottom: 5px solid #0a70b6;
 }
 
 .reviews-list {
@@ -46,7 +46,16 @@
 .review-info a {
   color: #0a70b6;
   font-weight: bold;
-  padding: 7px 20px;
   text-decoration: none;
   margin: 10px 0px;
+  border: 2px solid #0a70b6;
+  border-radius: 25px;
+  padding: 10px 50px;
+}
+.review-name {
+  font-size: 19px;
+  font-weight: 700;
+  color: #0a70b6;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
 }

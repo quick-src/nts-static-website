@@ -40,7 +40,7 @@ const Trainers: React.FC<any> = (props) => {
     <div className="trainers">
       <div className="container">
         <div className="title-container">
-          <h1 className="title-with-underline">Nybble TechnoSoft Trainers</h1>
+          <h1 className="title-with-underline">Our Experts</h1>
         </div>
         <div className="trainers-list">
           <Slider {...settings}>

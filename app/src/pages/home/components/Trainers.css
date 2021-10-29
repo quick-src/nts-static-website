@@ -1,6 +1,6 @@
 .trainers {
   padding: 50px 20px;
-  background-color: #fbfbfb;
+  background-color: #444444;
 }
 
 .trainers .title-container {
@@ -11,11 +11,11 @@
 
 .trainers .title-with-underline {
   text-align: center;
-  color: #444444;
+  color: #ffff !important;
   font-size: 42px;
   padding-bottom: 5px;
   font-weight: bold;
-  border-bottom: 5px solid #0a70b6;
+  border-bottom: 5px solid #ffff;
 }
 
 .trainers-list {
@@ -24,8 +24,6 @@
 
 .trainer-card {
   padding: 0px 25px;
-  border: 1px solid #dee2e6!important;
-
 }
 
 .trainer-info {
@@ -50,14 +48,15 @@
   font-weight: bold;
   text-decoration: none;
   margin: 10px 0px;
-  border: 2px solid #0A70B6;
+  border: 2px solid #0a70b6;
   border-radius: 25px;
   padding: 10px 50px;
 }
+
 .trainer-name {
   font-size: 19px;
-    font-weight: 700;
-    color: #0A70B6;
-    letter-spacing: 0.5px;
-    margin-bottom: 0px;
+  font-weight: 700;
+  color: #0a70b6;
+  letter-spacing: 0.5px;
+  margin-bottom: 0px;
 }
