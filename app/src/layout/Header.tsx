@@ -35,7 +35,7 @@ const Header: React.FC<any> = (props) => {
               <ul>
                 <li>
                   <i className="fa fa-phone" />
-                  +9140-48555377
+                  +91-89789 55377
                 </li>
                 <li>
                   <i className="fa fa-envelope" />

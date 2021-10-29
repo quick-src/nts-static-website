@@ -1,7 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 
-import Icon from "../../../assets/nts-logo.png";
+import Icon1 from "../../../assets/Customer Engagement.png";
+import Icon2 from "../../../assets/Service Offering.png";
 import "./HeroBanner.css";
 
 const HeroBanner: React.FC<any> = (props) => {
@@ -51,14 +52,18 @@ const HeroBanner: React.FC<any> = (props) => {
       </div>
       <div className="slider-bg-bottom">
         <div className="why-nyt-section">
+        
           <div className="why-icon">
-            <img src={Icon} alt="" />
+            <img src={Icon1} alt="" />
           </div>
           <div className="why-icon">
-            <img src={Icon} alt="" />
+            <img src={Icon2} alt="" />
           </div>
           <div className="why-icon">
-            <img src={Icon} alt="" />
+            
+          </div>
+          <div className="why-icon">
+            
           </div>
         </div>
       </div>
