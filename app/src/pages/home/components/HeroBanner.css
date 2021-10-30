@@ -112,6 +112,28 @@ h1 {
   color: #ffffff;
   font-size: 37px;
 }
+.hot-requirements {
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+.hot-requirements:hover {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+.hot-requirements-small {
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.hot-requirements-small:hover {
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
 
 @media (max-width: 576px) {
   .slide-1 h1 {
