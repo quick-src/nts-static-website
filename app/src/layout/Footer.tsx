@@ -10,17 +10,16 @@ const Footer: React.FC<any> = (props) => {
       <div className="footer">
         <div className="footer-links">
           <div className="company">
-            <h3>company</h3>
+            <h3>Know more About us</h3>
             <a href={routes.aboutUs}>About Us</a>
-            <a href={routes.itStaffing}>IT Staffing</a>
-            <a href={routes.projects}>Projects</a>
-            <a href={routes.contactUs}>Contact Us</a>
           </div>
           <div className="courses">
-            <h3>courses</h3>
-            <a href={routes.corporateTraining}>Corporate Training</a>
+            <h3>Services</h3>
+            <a href={routes.corporateTraining}>Corporate Training Workshop</a>
             <a href={routes.onlineTraining}>Online Training</a>
             <a href={routes.certifications}>Certifications</a>
+            <a href={routes.projects}>Custom Application Development</a>
+            <a href={routes.itStaffing}>IT Staff Augmentation</a>
           </div>
           <div className="quick-links">
             <h3>quick links</h3>

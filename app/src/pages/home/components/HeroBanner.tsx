@@ -52,19 +52,16 @@ const HeroBanner: React.FC<any> = (props) => {
       </div>
       <div className="slider-bg-bottom">
         <div className="why-nyt-section">
-        
           <div className="why-icon">
             <img src={Icon1} alt="" />
+            <p>Customer Engagement</p>
           </div>
           <div className="why-icon">
             <img src={Icon2} alt="" />
+            <p>Service Offering</p>
           </div>
-          <div className="why-icon">
-            
-          </div>
-          <div className="why-icon">
-            
-          </div>
+          <div className="why-icon"></div>
+          <div className="why-icon"></div>
         </div>
       </div>
     </div>
