@@ -19,6 +19,8 @@
 }
 
 .trainers-list {
+  display: flex;
+  justify-content: center;
   padding: 20px 40px;
 }
 
@@ -28,11 +30,13 @@
 
 .trainer-info {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: column;
   padding: 20px 30px;
   background-color: #ffff;
+  height: 500px;
+  width: 400px;
 }
 
 .trainer-info img {
@@ -51,6 +55,7 @@
   border: 2px solid #0a70b6;
   border-radius: 25px;
   padding: 10px 50px;
+  bottom: 25px;
 }
 
 .trainer-name {

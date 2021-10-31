@@ -23,9 +23,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column;
   background-color: #0d0d0d;
   padding: 15px 50px;
-  height: 150px;
+  /* height: 170px; */
   width: 100%;
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -33,6 +34,16 @@
   font-size: 18px;
   font-weight: 600;
   text-transform: capitalize;
+}
+
+.slider-bg-bottom .title-container {
+  color: #ffffff !important;
+  padding-bottom: 10px;
+}
+
+.slider-bg-bottom .title-with-underline {
+  color: #ffffff !important;
+  border-bottom: 5px solid #ffffff;
 }
 
 .slider-bg-bottom .why-nyt-section {

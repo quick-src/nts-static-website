@@ -93,7 +93,6 @@
 
 .it-staffing-container .it-staffing-content h2 {
   text-align: center;
-  
 }
 
 .it-staffing-container .it-staffing-content p {
@@ -130,7 +129,7 @@
 
 .projects-container .projects-content h2 {
   text-align: center;
-  color: #0a70b6;
+  /* color: #0a70b6; */
 }
 
 .projects-container .projects-content p {
@@ -145,7 +144,6 @@
   border: 1px solid #0a70b6;
   border-radius: 25px;
   text-decoration: none;
-
 }
 
 .content-section .why-container {

@@ -18,8 +18,10 @@ const HeroBanner: React.FC<any> = (props) => {
   return (
     <div>
       <div className="slider-bg-top">
-        
-        <a className="hot-requirements">Hot requirements ! <br /><small className="hot-requirements-small"> Read more </small></a>
+        <a className="hot-requirements">
+          Hot requirements ! <br />
+          <small className="hot-requirements-small"> Read more </small>
+        </a>
       </div>
       <div className="hero-banner">
         <Slider {...settings}>
@@ -52,6 +54,9 @@ const HeroBanner: React.FC<any> = (props) => {
         </Slider>
       </div>
       <div className="slider-bg-bottom">
+        <div className="title-container">
+          <h1 className="title-with-underline">Why NTS?</h1>
+        </div>
         <div className="why-nyt-section">
           <div className="why-icon">
             <img src={Icon1} alt="" />

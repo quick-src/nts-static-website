@@ -23,7 +23,9 @@ const OnlineCourses: React.FC<any> = (props) => {
                 A key value of corporate training is that it helps turn young
                 talent into tomorrow's leaders Corporate Training is education
                 activities that are focused on up-skilling your existing
-                workforce.
+                workforce.Corporate training increases key significance in the
+                corporate world and the human asset office, the directors among
+                others esteem its need and significance.
               </p>
             </div>
             <a href="/corporate-training">View All</a>
