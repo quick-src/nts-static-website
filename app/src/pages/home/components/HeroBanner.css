@@ -47,14 +47,14 @@
 }
 
 .slider-bg-bottom .why-nyt-section {
-  width: 500px;
+  width: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .slider-bg-bottom .why-icon img {
-  height: 50px;
+  height: 65px;
   width: 100px;
 }
 

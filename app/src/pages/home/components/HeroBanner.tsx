@@ -3,6 +3,10 @@ import Slider from "react-slick";
 
 import Icon1 from "../../../assets/Customer Engagement.png";
 import Icon2 from "../../../assets/Service Offering.png";
+import Icon3 from "../../../assets/Agility.png";
+import Icon4 from "../../../assets/Design Experience Points.png";
+import Icon5 from "../../../assets/Efficiency Reduced Cost.png";
+import Icon6 from "../../../assets/Scalability.png";
 import "./HeroBanner.css";
 
 const HeroBanner: React.FC<any> = (props) => {
@@ -65,6 +69,22 @@ const HeroBanner: React.FC<any> = (props) => {
           <div className="why-icon">
             <img src={Icon2} alt="" />
             <p>Service Offering</p>
+          </div>          
+          <div className="why-icon">
+            <img src={Icon3} alt="" />
+            <p>Agility</p>
+          </div>
+          <div className="why-icon">
+            <img src={Icon4} alt="" />
+            <p>Design Experience Points</p>
+          </div>
+          <div className="why-icon">
+            <img src={Icon5} alt="" />
+            <p>Efficiency Reduced Cost</p>
+          </div>
+          <div className="why-icon">
+            <img src={Icon6} alt="" />
+            <p>Scalability</p>
           </div>
           <div className="why-icon"></div>
           <div className="why-icon"></div>
