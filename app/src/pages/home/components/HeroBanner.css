@@ -44,6 +44,7 @@
 .slider-bg-bottom .title-with-underline {
   color: #ffffff !important;
   border-bottom: 5px solid #ffffff;
+  animation: showup 10s;
 }
 
 .slider-bg-bottom .why-nyt-section {
@@ -51,6 +52,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.slider-bg-bottom .why-icon {
+  padding: 10px 25px;
 }
 
 .slider-bg-bottom .why-icon img {
@@ -123,27 +128,107 @@ h1 {
   color: #ffffff;
   font-size: 37px;
 }
+
+.slide-1 h1 {
+  animation: an 1s ease-out 1 both;
+}
+
+.slide-2 h1 {
+  animation: an 1s ease-out 1 both;
+}
+
+.slide-3 h1 {
+  animation: an 1s ease-out 1 both;
+}
+
 .hot-requirements {
   color: #ffffff;
   font-size: 20px;
   letter-spacing: 0.5px;
 }
+
 .hot-requirements:hover {
   color: #ffffff;
   font-size: 20px;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
+
 .hot-requirements-small {
   color: #ffffff;
   font-size: 14px;
   letter-spacing: 0.5px;
 }
+
 .hot-requirements-small:hover {
   color: #ffffff;
   font-size: 14px;
   text-decoration: none;
   letter-spacing: 0.5px;
+}
+
+/* animations */
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 355px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 355px;
+  }
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes an {
+  from {
+    opacity: 0;
+    transform: perspective(500px) translate3d(-35px, -40px, -150px)
+      rotate3d(1, -1, 0, 35deg);
+  }
+  to {
+    opacity: 1;
+    transform: perspective(500px) translate3d(0, 0, 0);
+  }
 }
 
 @media (max-width: 576px) {

@@ -69,7 +69,7 @@ const HeroBanner: React.FC<any> = (props) => {
           <div className="why-icon">
             <img src={Icon2} alt="" />
             <p>Service Offering</p>
-          </div>          
+          </div>
           <div className="why-icon">
             <img src={Icon3} alt="" />
             <p>Agility</p>
