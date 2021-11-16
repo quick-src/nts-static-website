@@ -12,6 +12,8 @@ const Footer: React.FC<any> = (props) => {
           <div className="company">
             <h3>Know more About us</h3>
             <a href={routes.aboutUs}>About Us</a>
+            <a href={routes.aboutUs}>About Trainers</a>
+            <a href={routes.aboutUs}>About Project Consultants</a>
           </div>
           <div className="courses">
             <h3>Services</h3>
@@ -22,11 +24,24 @@ const Footer: React.FC<any> = (props) => {
             <a href={routes.itStaffing}>IT Staff Augmentation</a>
           </div>
           <div className="quick-links">
-            <h3>quick links</h3>
-            <a href={routes.becomeTrainer}>Become Trainer</a>
-            <a href={routes.blog}>Blog</a>
+            <h3>Courses</h3>
+            <a href={routes.becomeTrainer}>Cloud Computing</a>
+            <a href={routes.becomeTrainer}>DevOps</a>
+            <a href={routes.becomeTrainer}>Big Data</a>
+            <a href={routes.becomeTrainer}>Software Development</a>
+            <a href={routes.becomeTrainer}>Salesforce</a>
+            <a href={routes.becomeTrainer}>Linux</a>
+            <a href={routes.becomeTrainer}>Networking</a>
+            <a href={routes.becomeTrainer}>Microsoft Dynamics CRM</a>
+            <a href={routes.becomeTrainer}>Mulesoft</a>
+            <a href={routes.becomeTrainer}>Power BI</a>
+            <a href={routes.becomeTrainer}>SAP BO</a>
+            <a href={routes.becomeTrainer}>SAP BW</a>
+            <a href={routes.becomeTrainer}>SAP EHS</a>
+            <a href={routes.becomeTrainer}>SAP FICO</a>
           </div>
           <div className="contact-us">
+            <h3>Coach with NTS</h3>
             <h3>contact us</h3>
             <a href="#">+91 40485 55377</a>
             <a href="#">+91 89789 55377</a>
