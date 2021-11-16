@@ -133,6 +133,10 @@ h1 {
   animation: an 1s ease-out 1 both;
 }
 
+[data-inviewport="scale-in"].is-inViewport {
+  animation: an 1s ease-out 1 both;
+}
+
 .slide-2 h1 {
   animation: an 1s ease-out 1 both;
 }

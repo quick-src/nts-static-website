@@ -1,11 +1,65 @@
 import React from "react";
 
 import ContactUs from "./ContactUs";
-//import Logo from "../assets/Logo.svg";
 import Logo from "../assets/nts-logo.png";
 import { routes } from "../helpers";
 
 import "./Header.css";
+
+const HeaderMenu: React.FC<any> = (props) => {
+  return (
+    <ul className="navbar-nav">
+      <li className="nav-item">
+        <a href={routes.home} className="menu-item-active">
+          Home
+        </a>
+      </li>
+      <li className="nav-item">
+        <div className="menu-item">
+          <div className="menu-label">Services</div>
+          <div className="menu-list">
+            <a href="#">Custom Application Development</a>
+            <a href="#">IT Staff Augmentation</a>
+            <a href="#">Online Courses</a>
+            <a href="#">Certification Courses</a>
+            <a href="#">Corporate Workshop / Training</a>
+          </div>
+        </div>
+      </li>
+      <li className="nav-item">
+        <div className="menu-item">
+          <div className="menu-label">Courses</div>
+          <div className="menu-list">
+            <a href={routes.onlineTraining}>Online</a>
+            <a href={routes.certifications}>Certifications</a>
+            <a href={routes.corporateTraining}>Corporate Training</a>
+          </div>
+        </div>
+      </li>
+      <li className="nav-item">
+        <a href={routes.aboutUs} className="menu-item">
+          About Us
+        </a>
+      </li>
+      <li className="nav-item">
+        {" "}
+        <a href={routes.becomeTrainer} className="menu-item">
+          Coach with NTS
+        </a>
+      </li>
+      <li className="nav-item">
+        <a href={routes.blogs} className="menu-item">
+          Blog
+        </a>
+      </li>
+      <li className="nav-item">
+        <a href={routes.contactUs} className="menu-item">
+          Contact Us
+        </a>
+      </li>
+    </ul>
+  );
+};
 
 const Header: React.FC<any> = (props) => {
   return (
@@ -41,20 +95,6 @@ const Header: React.FC<any> = (props) => {
                   <i className="fa fa-envelope" />
                   info@nybbletechnosoft.com
                 </li>
-                {/* <li>
-                  <div className="notification-box">
-                    <span className="notification-count">6</span>
-                    <div className="notification-bell">
-                      <span className="bell-top"></span>
-                      <span className="bell-middle"></span>
-                      <span className="bell-bottom"></span>
-                      <span className="bell-rad"></span>
-                    </div>
-                  </div>
-                </li> */}
-                {/* <li>
-                  <a className="rainbow rainbow-5">Hot requirements! </a>
-                </li> */}
               </ul>
             </div>
           </div>
@@ -62,53 +102,7 @@ const Header: React.FC<any> = (props) => {
             <a className="navbar-brand" href={routes.home}>
               <img src={Logo} alt="" className="header-logo" />
             </a>
-            <ul className="navbar-nav">
-              <li className="nav-item">
-                <a href={routes.home} className="menu-item-active">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item">
-                <div className="menu-item">
-                  <div className="menu-label">Services</div>
-                  <div className="menu-list">
-                    <a href={routes.itStaffing}>IT Staffing</a>
-                    <a href={routes.projects}>Projects</a>
-                  </div>
-                </div>
-              </li>
-              <li className="nav-item">
-                <div className="menu-item">
-                  <div className="menu-label">Courses</div>
-                  <div className="menu-list">
-                    <a href={routes.onlineTraining}>Online</a>
-                    <a href={routes.certifications}>Certifications</a>
-                    <a href={routes.corporateTraining}>Corporate Training</a>
-                  </div>
-                </div>
-              </li>
-              <li className="nav-item">
-                <a href={routes.aboutUs} className="menu-item">
-                  About Us
-                </a>
-              </li>
-              <li className="nav-item">
-                {" "}
-                <a href={routes.becomeTrainer} className="menu-item">
-                  Become Trainer
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href={routes.blogs} className="menu-item">
-                  Blog
-                </a>
-              </li>
-              <li className="nav-item">
-                <a href={routes.contactUs} className="menu-item">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
+            <HeaderMenu />
           </div>
         </nav>
         <div className="navbar fixed-top navbar-light mobile-device-show">
@@ -134,53 +128,7 @@ const Header: React.FC<any> = (props) => {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarToggler">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-                <li className="nav-item">
-                  <a href={routes.home} className="menu-item-active">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <div className="menu-item">
-                    <div className="menu-label">Services</div>
-                    <div className="menu-list">
-                      <a href={routes.itStaffing}>IT Staffing</a>
-                      <a href={routes.projects}>Projects</a>
-                    </div>
-                  </div>
-                </li>
-                <li className="nav-item">
-                  <div className="menu-item">
-                    <div className="menu-label">Courses</div>
-                    <div className="menu-list">
-                      <a href={routes.onlineTraining}>Online</a>
-                      <a href={routes.certifications}>Certifications</a>
-                      <a href={routes.corporateTraining}>Corporate Training</a>
-                    </div>
-                  </div>
-                </li>
-                <li className="nav-item">
-                  <a href={routes.aboutUs} className="menu-item">
-                    About Us
-                  </a>
-                </li>
-                <li className="nav-item">
-                  {" "}
-                  <a href={routes.becomeTrainer} className="menu-item">
-                    Become Trainer
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href={routes.blogs} className="menu-item">
-                    Blog
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a href={routes.contactUs} className="menu-item">
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
+              <HeaderMenu />
             </div>
           </div>
         </div>

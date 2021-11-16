@@ -1,11 +1,6 @@
 .contact-us-container {
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
-      rgb(10, 112, 182, 0.74),
-      rgb(10, 112, 182, 0.74)
-    ),
-    url("../../../assets/bg_03.png");
   background-position: top;
   background-repeat: no-repeat;
   background-color: #ffffff;
@@ -13,14 +8,14 @@
 
 .contact-us-container h1 {
   padding: 5px 10px;
-  color: #ffffff;
+  color: #000;
   text-transform: uppercase;
   padding-top: 30px;
 }
 
 .contact-us-container p {
   padding: 5px 10px;
-  color: #ffffff;
+  color: #000;
   width: 60%;
 }
 

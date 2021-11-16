@@ -45,7 +45,8 @@
   max-height: 100vh;
   border-radius: 5px;
   animation-name: popup;
-  animation-duration: 40ms;
+  animation-duration: 300ms;
+  animation-timing-function: ease-out;
   box-shadow: 0px 5px 35px 9px #ccc;
   z-index: 1;
 }
@@ -107,19 +108,10 @@
 }
 
 @keyframes popup {
-  0% {
-    bottom: -60px;
+  from {
+    bottom: -300px;
   }
-  25% {
-    bottom: -40px;
-  }
-  50% {
-    bottom: -20px;
-  }
-  75% {
-    bottom: 0px;
-  }
-  100% {
+  to {
     bottom: 20px;
   }
 }

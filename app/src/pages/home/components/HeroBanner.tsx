@@ -16,7 +16,7 @@ const HeroBanner: React.FC<any> = (props) => {
     infinite: true,
     speed: 500,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 6000,
   };
 
   return (
@@ -30,7 +30,7 @@ const HeroBanner: React.FC<any> = (props) => {
       <div className="hero-banner">
         <Slider {...settings}>
           <div className="slide-1">
-            <div className="container">
+            <div className="container" data-inviewport="scale-in">
               <h1>
                 Finding the Right IT Solutions for Your Business
                 <br />
