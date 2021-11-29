@@ -1,7 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 
-import Trainer1Pic from "../../../assets/trainer-1.png";
+import Trainer1Pic from "../../../assets/user1.png";
+import Trainer2Pic from "../../../assets/user2.png";
 
 import "./Reviews.css";
 
@@ -50,7 +51,7 @@ const Reviews: React.FC<any> = (props) => {
             </div>
             <div className="review-card">
               <div className="review-info">
-                <img src={Trainer1Pic} alt="" className="review-pic" />
+                <img src={Trainer2Pic} alt="" className="review-pic" />
                 <h3 className="review-name">Alex Lee</h3>
                 <p className="review-summary">
                   Lorem Ipsum is simply dummy text of the printing and
@@ -65,18 +66,16 @@ const Reviews: React.FC<any> = (props) => {
               <div className="review-info">
                 <img src={Trainer1Pic} alt="" className="review-pic" />
                 <h3 className="review-name">Alex Lee</h3>
-                <p className="review-summary">
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s, when an unknown
-                  printer took a galley of type and scrambled it to make a type
-                  specimen book.
-                </p>
+                <div className="talk-bubble tri-right border round btm-left-in">
+  <div className="talktext">
+    <p>test Now we add a border and it looks like a comic. Uses .border .round and .btm-left-in</p>
+  </div>
+</div>
               </div>
             </div>
             <div className="review-card">
               <div className="review-info">
-                <img src={Trainer1Pic} alt="" className="review-pic" />
+                <img src={Trainer2Pic} alt="" className="review-pic" />
                 <h3 className="review-name">Alex Lee</h3>
                 <p className="review-summary">
                   Lorem Ipsum is simply dummy text of the printing and

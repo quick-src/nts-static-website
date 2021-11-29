@@ -1,7 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
 
-import Trainer1Pic from "../../../assets/trainer-1.png";
+import Trainer1Pic from "../../../assets/user1.png";
+import Trainer2Pic from "../../../assets/user2.png";
 
 import "./Trainers.css";
 
@@ -55,10 +56,11 @@ const Trainers: React.FC<any> = (props) => {
                 </p>
                 <a href="#">View All</a>
               </div>
+              
             </div>
             <div className="trainer-card">
               <div className="trainer-info">
-                <img src={Trainer1Pic} alt="" className="trainer-pic" />
+                <img src={Trainer2Pic} alt="" className="trainer-pic" />
                 <h3 className="trainer-name">Srikanth</h3>
                 <p className="trainer-summary">
                   DevOps Consultant with 8 years of experience in Aws, Jenkins
